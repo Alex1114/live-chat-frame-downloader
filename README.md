@@ -1,4 +1,4 @@
-# Chat Replay Downloader
+# Live Chat Frame Downloader
 A simple tool used to retrieve YouTube/Twitch chat from past broadcasts/VODs.
 
 ### Requirements:
