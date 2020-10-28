@@ -1,4 +1,4 @@
-# Chat Replay Downloader
+# Live Chat Frame Downloader
 A simple tool used to retrieve YouTube/Twitch chat from past broadcasts/VODs.
 
 ### Requirements:
@@ -38,7 +38,7 @@ optional arguments:
 #### Exaemples
 ##### 1. Outpuefsdurl
 ```
-python chat_replay_downloader.py <video_url> -output <file_name>
+python3 chat_replay_downloader.py <video_url> -output <file_name>
 ```
 
 
@@ -47,17 +47,17 @@ If the file name ends in `.json`, the array will be written to the file in JSON 
 
 ##### 2. Output file of chat messages, starting at a certain time (in seconds or hh:mm:ss) until the end
 ```
-python chat_replay_downloader.py <video_url> -start_time <time> -output <file_name>
+python3 chat_replay_downloader.py <video_url> -start_time <time> -output <file_name>
 ```
 
 ##### 3. Output file of chat messages, starting from the beginning and ending at a certain time (in seconds or hh:mm:ss)
 ```
-python chat_replay_downloader.py <video_url> -end_time <time> -output <file_name>
+python3 chat_replay_downloader.py <video_url> -end_time <time> -output <file_name>
 ```
 
 ##### 4. Output file of chat messages, starting and ending at certain times (in seconds or hh:mm:ss)
 ```
-python chat_replay_downloader.py <video_url> -start_time <time> -end_time <time> -output <file_name>
+python3 chat_replay_downloader.py <video_url> -start_time <time> -end_time <time> -output <file_name>
 ```
 
 #### Example outputs
