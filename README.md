@@ -122,3 +122,21 @@ messages = get_chat_replay('video_url', end_time = 60) # Start at 0 seconds (beg
 ```python
 messages = get_chat_replay('video_url', start_time = 60, end_time = 120) # Start at 60 seconds and end at 120 seconds
 ```
+
+## Search Keywords
+### Example search keywords
+```
+python3 search_key_words.py [source file] [and/or] [how many keywords(1~3)] [output name]
+```
+Mode : And, 2 Keywords
+![output](figures/and_2.png)  
+```
+python3 search_key_words.py search_key_words.py example.csv and 2 search.csv
+```
+--  
+
+Mode : Or, 3 Keywords
+![output](figures/or_3.png)  
+```
+python3 search_key_words.py search_key_words.py example.csv or 3 search.csv
+```
