@@ -140,3 +140,10 @@ Mode : Or, 3 Keywords
 ```
 python3 search_key_words.py example.csv or 3 search.csv
 ```
+### Example search keywords in .csv file
+```
+python3 search_key_words_file.py [source file] [keywords file] [output name]
+```  
+```
+python3 search_key_words.py example.csv keywords.csv search.csv
+```
