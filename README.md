@@ -146,4 +146,26 @@ python3 search_key_words_file.py [source file] [keywords file] [output name]
 ```  
 ```
 python3 search_key_words.py example.csv keywords.csv search.csv
+
 ```
+
+# Update - Chat Downloader
+  
+## Installation
+### Install using `pip`
+```
+pip3 install chat-downloader
+```
+
+To update to the latest version, add the `--upgrade` flag to the above command.
+### Install using `git`
+```
+cd chat-downloader
+python3 setup.py install
+```
+
+## CSV Example:
+```
+python3 youtube_chat_downloader.py https://www.youtube.com/watch?v=IWjgYJpCNV0 -o update_test.csv
+```
+  
