@@ -154,14 +154,14 @@ python3 search_key_words.py example.csv keywords.csv search.csv
 ## Installation
 ### Install using `pip`
 ```
-pip3 install chat-downloader
+sudo pip3 install chat-downloader
 ```
 
 To update to the latest version, add the `--upgrade` flag to the above command.
 ### Install using `git`
 ```
 cd chat-downloader
-python3 setup.py install
+sudo python3 setup.py install
 ```
 
 ## CSV Example:
